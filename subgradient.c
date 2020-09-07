@@ -3,7 +3,7 @@ Implementation of subgradient methods for set-covering problems (SCP)
 
 1) spectral projected subgradient, based on
 "Crema, A., Loreto, M., & Raydan, M. (2007) Spectral projected subgradient with a
-momentum term for the lagrangian dual approach. Computers and OperationsResearch,
+momentum term for the Lagrangian dual approach. Computers and Operations Research,
 34(10), 3174–3186."
 
 2) basic subgradient, based on
