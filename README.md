@@ -42,9 +42,9 @@ Often, it is time-consuming to compute the optimal value of LP relaxation proble
 Because the dual problem is maximization problem, any feasible solution of the dual problem is less than or equal to the optimal value of the LP relaxation problem. Hence, it is a valid lowerbound.
 
 **Lagragian dual problem**: In this project, we will use a subgradient method to compute the lowerbound. A subgradient method is an iterative algorithm to optimize a non-differential convex function. A better formulation for a subgradient method is the Lagragian dual problem.  
+<p align="center"><img src="../image/latex/Lagrangian-dual.png" /></p>
 
 It is known that the optimal value of the dual of LP relaxation is equal to the optimal value of the Lagragian dual problem. Hence, any feasible solution of the Lagragian dual problem is also a valid lowerbound.  
-<p align="center"><img src="../image/latex/Lagrangian-dual.png" /></p>
 
 In this project, I implemented two subgradient methods proposed in the literature, [1] and [2], and compared their performances. The experiments were conducted on the benchmark problems which are available on [Beasley’s OR library](http://people.brunel.ac.uk/~mastjjb/jeb/orlib/scpinfo.html).
 
