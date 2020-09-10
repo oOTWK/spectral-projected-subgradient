@@ -64,6 +64,8 @@ The full SCP solver is under development. SPS is one componenet of the full SCP 
 <p align="center"><img src="../image/latex/bsm-pseudo.png" /></p>
 
 ## Computational results
+x-axis: iteration  
+y-axis: objective value of the Lagrangian dual problem (lowerbound)
 ##### scpnre1
 ![scpnre1](../image/graph/scpnre1.png)
 ##### scpnre2
